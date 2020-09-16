@@ -56,4 +56,4 @@ dotnet add package BlazorJsEmbedder
 
 ## Licensing
 
-Licensed under the [MIT](https://github.com/ahmetcanaydemir/BlazorJavascriptEmbedder/blob/master/LICENSE).
+Licensed under the [MIT](https://github.com/ahmetcanaydemir/BlazorJsEmbedder/blob/master/LICENSE).
