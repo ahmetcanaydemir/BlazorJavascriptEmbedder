@@ -7,7 +7,7 @@ This repository allows you to write your JavaScript codes in razor file.
 If you want run JavaScript codes at first render, you can use `JsEmbedder` component:
 
 ```html
-<JsEmbedder
+<JsEmbedder @ref="ref"
   JavaScript="
                 alert('Hello Blazor Javascript Embedder!')
 "
@@ -20,7 +20,7 @@ Also you can use `RunJsFunction<T>` method to run javascript functions inside yo
 JsEmbedder ref;
 public async Task ButtonClick()
 {
-       var result = await embedderRef
+       var result = await ref
             .RunJsFunction<int>(@"
                 (function() {
                     return 2 + 2;
