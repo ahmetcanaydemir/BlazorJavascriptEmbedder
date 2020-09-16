@@ -2,6 +2,8 @@
 
 > :warning: This is still work in progress
 
+![Nuget Package](https://img.shields.io/nuget/v/BlazorJsEmbedder)
+
 This repository allows you to write your JavaScript codes in razor file.
 
 If you want run JavaScript codes at first render, you can use `JsEmbedder` component:
@@ -36,9 +38,8 @@ This repository is not doing something magical. It just use `IJSRuntime`. But a 
 
 There is no nuget package yet.
 
-1. Download this repository.
-2. Add `BlazorJsEmbedder` to your project.
-3. To start using add this script to end of \_Host.cshtml:
+1. `dotnet add package BlazorJsEmbedder`
+2. Add this script to end of \_Host.cshtml:
 
 ```html
 <script src="_content/BlazorJsEmbedder/index.js"></script>
