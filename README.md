@@ -40,9 +40,11 @@ There is no nuget package yet.
 
 1. Add nuget package to project:
 
-`dotnet add package BlazorJsEmbedder`
+```
+dotnet add package BlazorJsEmbedder
+```
 
-2. Add this script to end of \_Host.cshtml:
+2. Add this script to end of \_Host.cshtml: 
 
 ```html
 <script src="_content/BlazorJsEmbedder/index.js"></script>
