@@ -38,7 +38,10 @@ This repository is not doing something magical. It just use `IJSRuntime`. But a 
 
 There is no nuget package yet.
 
-1. `dotnet add package BlazorJsEmbedder`
+1. Add nuget package to project:
+
+`dotnet add package BlazorJsEmbedder`
+
 2. Add this script to end of \_Host.cshtml:
 
 ```html
