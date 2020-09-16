@@ -20,8 +20,7 @@ Also you can use `RunJsFunction<T>` method to run javascript functions inside yo
 JsEmbedder ref;
 public async Task ButtonClick()
 {
-       var result = await ref
-            .RunJsFunction<int>(@"
+       var result = await ref.RunJsFunction<int>(@"
                 (function() {
                     return 2 + 2;
                 })()
