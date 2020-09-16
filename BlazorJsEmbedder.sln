@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30503.244
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorJsEmbedder", "BlazorJsEmbedder.csproj", "{407F44A5-5551-4528-8226-DC5F94AF300D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorJsEmbedder.BlazorServerExample", "BlazorJsEmbedder.BlazorServerExample\BlazorJsEmbedder.BlazorServerExample.csproj", "{8F2C1E53-4248-425F-B54A-A047C8EF5B01}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{407F44A5-5551-4528-8226-DC5F94AF300D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{407F44A5-5551-4528-8226-DC5F94AF300D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{407F44A5-5551-4528-8226-DC5F94AF300D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{407F44A5-5551-4528-8226-DC5F94AF300D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8F2C1E53-4248-425F-B54A-A047C8EF5B01}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F2C1E53-4248-425F-B54A-A047C8EF5B01}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F2C1E53-4248-425F-B54A-A047C8EF5B01}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F2C1E53-4248-425F-B54A-A047C8EF5B01}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {23AE19C6-D625-4FA6-8791-D286BC970F2D}
+	EndGlobalSection
+EndGlobal

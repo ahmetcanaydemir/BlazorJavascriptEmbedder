@@ -1,0 +1,22 @@
+﻿@page "/"
+
+<JsEmbedder
+            @ref="embedderRef"
+            JavaScript="
+                alert('hello')
+"/>
+
+<button @onclick="async() => await ButtonClick()">
+    Run Javascript Function
+</button>
+
+@code{
+    JsEmbedder embedderRef;
+    public async Task ButtonClick()
+    {
+        var result = await embedderRef
+            .RunJsFunction<int>(@"
+                (function(){return 2+2})()
+            ");
+    }
+}
