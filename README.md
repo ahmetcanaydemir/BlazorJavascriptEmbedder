@@ -1,8 +1,8 @@
-# Blazor JavaScript Embedder
+# Blazor JavaScript Embedder  [![Nuget BlazorJsEmbedder package](https://img.shields.io/nuget/v/BlazorJsEmbedder)](https://www.nuget.org/packages/BlazorJsEmbedder/)
+
+<img src="https://user-images.githubusercontent.com/8572957/93450431-a30a2280-f8de-11ea-881c-ab1bcbf5a111.png" height="110" align="right">
 
 > :warning: This is still work in progress
-
-![Nuget Package](https://img.shields.io/nuget/v/BlazorJsEmbedder)
 
 This repository allows you to write your JavaScript codes in razor file.
 
